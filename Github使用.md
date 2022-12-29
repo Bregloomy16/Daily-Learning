@@ -54,7 +54,7 @@
 #### 设置姓名和邮箱地址
 
 ``` Git bash
-$git config --global use.name"Bregloomy16"
+$git config --global user.name"Bregloomy16"
 $git config --global user.email"user.email@example.com"
 ```
 
@@ -73,7 +73,7 @@ $git config --global color.ui auto
 
 ### 使用前的准备
 
-#### 设置SSH Key
+#### 设置SSH Key 
 
 - 运行下面的命令创建SSH Key
 
