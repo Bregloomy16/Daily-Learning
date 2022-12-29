@@ -54,7 +54,7 @@
 #### 设置姓名和邮箱地址
 
 ``` Git bash
-$git config --global use.name"Bregloomy16"
+$git config --global user.name"Bregloomy16"
 $git config --global user.email"user.email@example.com"
 ```
 
@@ -73,7 +73,7 @@ $git config --global color.ui auto
 
 ### 使用前的准备
 
-#### 设置SSH Key
+#### 设置SSH Key 
 
 - 运行下面的命令创建SSH Key
 
@@ -282,7 +282,7 @@ $git checkout master
 合并feature-A分支时，为了在历史记录中明确记录下本次分支合并，需要创建并提交。在合并时加上`--no-ff`参数。
 
 ```Git Bash
-$git merge --no-fff feature-A
+$git merge --no-ff feature-A
 ```
 
 默认信息中已经包含了从feature-A分支合并过来的相关内容，所以可以不做更改。
